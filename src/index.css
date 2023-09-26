@@ -27,6 +27,7 @@ body {
   color: var(--color-text);
   background-color: var(--color-background-900);
   padding: 2.4rem;
+  overflow: hidden;
 }
 
 /* ******* */
@@ -47,6 +48,7 @@ body {
   display: flex;
   gap: 2.4rem;
   justify-content: center;
+  overflow: hidden;
 }
 
 .box {
@@ -56,6 +58,7 @@ body {
   border-radius: 0.9rem;
   overflow: scroll;
   position: relative;
+  overflow: hidden;
 }
 
 .loader {
@@ -139,6 +142,7 @@ body {
   list-style: none;
   padding: 0.8rem 0;
   overflow: scroll;
+  overflow: hidden;
 }
 
 .list-watched {
